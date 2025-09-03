@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bg color</title>
+    <!-- <link rel="stylesheet" href="bg.css"> -->
+
+    <style>
+        .bg {
+            background-color: brown;
+        }
+
+        .image {
+            background-image: url("Asset/Images/istockphoto-1703754111-612x612.jpg");
+            background-color: #db2020;
+            height: 400px;
+            width: 400px;
+
+        }
+
+        .repeat {
+            background-image: url("Asset/Images/istockphoto-1703754111-612x612.jpg");
+            background-repeat: no-repeat;
+            height: 800px;
+            width: 800px;
+
+        }
+
+        .position {
+            /* background-position: right;
+             background-position: top;
+             background-position: center;
+             background-position: bottom; */
+            background-image: url("Asset/Images/istockphoto-1484192654-612x612.jpg");
+            background-repeat: no-repeat;
+            height: 800px;
+            width: 800px;
+            background-position: center;
+        }
+
+        .size {
+            background-image: url("Asset/Images/istockphoto-1465149798-612x612.jpg");
+            background-repeat: no-repeat;
+            height: 800px;
+            width: 800px;
+            background-size: contain;
+            color: #fff;
+            background-size: cover;
+
+        }
+
+        .attachment {
+            background-image: url("Asset/Images/istockphoto-1484192654-612x612.jpg");
+            background-repeat: no-repeat;
+            height: 800px;
+            width: 800px;
+            background-attachment: fixed;
+            /* background-attachment:local;
+    background-attachment:scroll; */
+
+
+        }
+
+        .clip {
+            border: 10px dotted black;
+            padding: 15px;
+            background: lightblue;
+            /* background-clip:border-box;
+             background-clip: padding-box;
+            background-clip:content-box; */
+
+        }
+
+        .origin {
+            color: #fff;
+            border: 15px dashed black;
+            padding: 25px;
+            background-image: url("asset/images/istockphoto-1484192654-612x612.jpg");
+            background-repeat: no-repeat;
+            background-origin: padding-box;
+            /* background-origin: border-box; 
+            background-origin: content-box; */
+
+
+
+        }
+
+        .shorthand {
+            background: #baa6a6 url(Asset/Images/istockphoto-1703754111-612x612.jpg) no-repeat left top;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="bg">
+        <h1>bg color</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+    </div>
+
+    <hr>
+
+    <div class="image">
+        <h1>The bg image property</h1>
+        <p>hello</p>
+    </div>
+
+    <hr>
+
+    <div class="repeat">
+        <h1>The bg image repeat</h1>
+        <p>hello</p>
+    </div>
+    <hr>
+
+    <div class="position">
+        <h1>The bg image position</h1>
+        <p>hello</p>
+    </div>
+
+    <hr>
+
+    <div class="size">
+        <h1>The bg image size</h1>
+        <p>hello</p>
+    </div>
+
+    <hr>
+
+    <div class="attachment">
+        <h1>The bg image attachment</h1>
+        <p>hello</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+    </div>
+
+    <hr>
+
+
+    <div class="clip">
+
+        <h1>The bg image clip</h1>
+        <p>hello</p>
+
+    </div>
+
+    <hr>
+
+    <div class="origin">
+
+        <h1>The bg image origin</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+
+        <p>hello</p>
+
+    </div>
+
+    <hr>
+    <div class="shorthand">
+
+        <h1>The bg image shorthand</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nam.</p>
+
+        <p>hello</p>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
